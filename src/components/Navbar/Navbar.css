@@ -1,0 +1,60 @@
+.navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    height: 8vh;
+    width: 100vw;
+    background-color:white;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+align-items: center;
+margin: 0;
+    
+}
+.dashb{
+padding-right: 5vw;
+flex: 1;
+display: flex;
+justify-content: end;
+
+}
+
+.logo{
+flex: 1;
+color: black;
+display: flex;
+padding-left: 5vw;
+h2{
+    font-family: "Sacramento", cursive;
+}
+
+}
+
+.nav_items{
+    display: flex;
+    flex:2;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    color: black;
+h3{
+    font-weight: lighter;
+}
+div{
+    cursor: pointer;
+}
+
+}
+
+
+/* for mobile phone */
+@media (max-width: 700px) {
+.nav_items{
+
+    h3{
+        font-size: 0.9rem;
+    }
+}
+
+}

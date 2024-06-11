@@ -1,0 +1,71 @@
+.enrolled_course{
+    background-color:#F2F9FA ;
+    width: 95%;
+    height: 22vh;
+    border-radius: 3vh;
+    display: flex;
+}
+
+.enroll_course_pic{
+display: flex;
+flex:1;
+align-items: center;
+padding-left: 10vh;
+
+    img{
+        height: 14vh;
+        width: 14vh;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.enroll_course_info{
+    flex:2;
+    display: flex;
+    gap:13vh;
+    align-items: center;
+    h1{
+    }
+    h3{
+         font-weight: lighter;
+    }
+    div{
+        flex:1;
+    }
+}
+
+.enroll_course_progress{
+    display: flex;
+    flex:1;
+    align-items: center;
+    padding-right: 5vw;
+
+    div{
+        flex: 1;
+    }
+    img{height: 15vh;
+        width: 15vh;
+        border-radius: 50%;
+    }
+}
+
+/*  for mobile screen*/
+
+
+@media (max-width: 700px) {
+    .enrolled_course{
+        flex-direction: column;
+    }
+
+.enroll_course_info{
+    flex-direction: column;
+}
+.enroll_course_pic{
+    padding-left: 10vw;
+}
+
+    .i{
+        display: none;
+    }
+}

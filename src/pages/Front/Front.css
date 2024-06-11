@@ -1,0 +1,15 @@
+.front{
+    height: 95vh;
+    width: 100vw;
+    overflow: hidden;
+    
+
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 700px) {
+}

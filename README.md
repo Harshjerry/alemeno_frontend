@@ -18,7 +18,9 @@ Design Tools : Figma
 
 
 Steps to run this app
+
  fork repository 
+ 
  make directory in your local storage and add  that repository
 
 Install all packages using command  ("npm install")

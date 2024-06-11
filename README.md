@@ -13,6 +13,7 @@ Harsh Singh
 
 
 Technologies used: ReactJs, ExpressJS, NodeJS, MongoDB, Mongoose,Redux, CSS, HTML,Material icons
+
 Design Tools : Figma
 
 
@@ -24,6 +25,7 @@ Steps to run this app
  make directory in your local storage and add  that repository
 
 Install all packages using command  ("npm install")
+
 Then using command npm run dev  you will be able to see app running in your local host 5173
 
 Also, no need to take care of backend  , it is deployed  and already linked to frontend in requestMethods.js file in src 
